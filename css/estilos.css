@@ -2,6 +2,13 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+}
+
+#sobre-mi{
+    background-image: url(../imagenes/fondo-proyectos.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 #contacto{
     background-image: url(../imagenes/fondo-contacto.png);
@@ -10,43 +17,45 @@ body{
 }
 
 #proyectos{
-    background-image: url(../imagenes/fondo-contacto.png);
+    background-image: url(../imagenes/fondo-proyectos.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 
+#inicio{
+    background-image: url(../imagenes/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+
 #inicio .div-cohete{
+
     height: 410px;
-}#inicio .cohete{
+}
+
+#inicio .cohete{
+
     height: 400px;
 }
+
 #inicio .cohete:hover{
     height: 410px;
 }
-#inicio .input-home p{
-    color:white;
+
+#tecnologias{
+    background-color: #e20000;
+}
+
+.p-1{
+    color: white;
     font-size: 17px;
     border: 1px solid white;
     border-radius: 50px;
     font-weight: 600;
 }
 
-#inicio{
-    background-image: url(../imagenes/fondo-contacto.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.p-1{
-    color: black;
-    font-size: 17px;
-    border: 1px solid black;
-    border-radius: 50px;
-    font-weight: 600;
-
-
-    padding: 0.25rem!important;
-}
 .proyecto{
     border: 3px solid #eee;
     background-color: white;
@@ -90,7 +99,6 @@ p{
 }
 
 .form-control{
-
     border-radius: 14px;
 }
 
@@ -119,22 +127,42 @@ p{
     background-color: red;
     border: none;
     border-radius: 14px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-}
-
-
-
-footer, footer a{
-    color: white;
 }
 
 .btn:hover{
     cursor: pointer;
     background-color: #370a6d;
     color: white;
+}
+
+.warap{
+    position: fixed;
+    right: 70px;
+    bottom: 0px;
+    background-color: #370a6d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.fa-whatsapp{
+    font-size: 30px;
+    color: white;
+}
+
+
+footer, footer a{
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+footer i{
+    font-size: 30px;
+    margin: 5px;
 }
 
 @media (max-width: 750px) {
