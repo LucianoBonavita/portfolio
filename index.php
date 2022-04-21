@@ -82,10 +82,9 @@
     <div class="warap pt-3 pb-3 px-3 bt-2">
 
         <a href="https://api.whatsapp.com/send?phone=541151010901" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-    
+
     </div>
 </body>
 
 
 </html>
-
