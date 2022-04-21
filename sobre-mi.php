@@ -258,7 +258,7 @@
     <footer class="container mt-5 footer">
         <div class="row">
 
-            <div class="col-3
+            <div class="col-3">
                 <a href=" https://github.com/lucianobonavita/portfolio" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/luciano-bonavita-327111237/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
@@ -269,6 +269,11 @@
         </div>
     </footer>
 
+    <div class="warap pt-3 pb-3 px-3 bt-2">
+
+        <a href="https://api.whatsapp.com/send?phone=541151010901" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+    </div>
 
 </body>
 

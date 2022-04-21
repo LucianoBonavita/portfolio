@@ -121,6 +121,11 @@ p{
     background-color: #eee;
 
 }
+
+textarea{
+    height: 150px;
+}
+
 .nav-link{
     text-decoration: none;
     color: #282828;
@@ -234,28 +239,68 @@ p{
     font-size: 14px;
 }
 
+#sobre-mi footer{
+    color: red;
+    
+
+}
+
+#sobre-mi footer .fa-github{
+    font-size: 30px;
+    color: red;
+}
+
+#sobre-mi footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
 footer, footer a{
     color: white;
-    margin-bottom: 10px;
-
+    font-weight: 100;
 }
 
-footer i{
+footer .fa-github{
     font-size: 30px;
-    margin: 5px;
+    color: white;
 }
 
-@media (max-width: 750px) {
-    #contacto{
-        background-image: url('../images/fondo-proyectos');
-        background-repeat: no-repeat;
-        background-size: 100%;
+footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+    @media (max-width: 750px) {/* Para mobile */
+        #inicio, #contacto {
+            background-image: url(../images/fondo-proyectos.png);
+        }
+        #inicio .input-home p {
+            color: #E20000;
+            border: 1px solid #E20000;
+        }
+        #contacto {
+            background-image: url(../images/fondo-proyectos.png);
+        }
+        footer a{
+        color: #E20000;
+    }
     }
 
-    .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
-    }
-}
 
 
