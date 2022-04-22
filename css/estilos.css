@@ -131,6 +131,11 @@ textarea{
     color: #282828;
 }
 
+nav .nav-link:hover {
+    color: black;
+  
+  }
+
 .btn-blanco{
     color: #370a6d;
     background-color:white;
