@@ -246,8 +246,12 @@ nav .nav-link:hover {
 
 #sobre-mi footer{
     color: red;
-    
+}
 
+
+
+#sobre-mi footer a{
+    color: red;
 }
 
 #sobre-mi footer .fa-github{
@@ -263,14 +267,45 @@ nav .nav-link:hover {
     height: 32px;
     width: 32px;
     text-align: center;
-    padding: 8px 0 0 0;
+    padding: 8px;
     border-radius: 80px;
     margin: 0 8px;
 }
 
+
+#proyectos footer a{
+    color: red;
+}
+
+#proyectos footer .fa-github{
+    font-size: 30px;
+    color: red;
+}
+
+#proyectos footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+#proyectos footer{
+    color: red;
+}
+
+#contacto footer{
+    color: white;
+}
+
 footer, footer a{
     color: white;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 footer .fa-github{

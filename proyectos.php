@@ -116,17 +116,16 @@
 
     </main>
 
-    <footer class="container">
-        <div class="row mt-5">
-            <div class="col-3">
+    <footer class="container mt-5 footer">
+        <div class="row">
 
-            </div>
             <div class="col-3">
-                Sponsor <a href="https://depcsuite.com" target="_blank" title="DePCSuite">DePcSuite</a>
+                <a href=" https://github.com/lucianobonavita/portfolio" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/luciano-bonavita-327111237/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
-            <div class="col-3">
-                <a href="mailto:bonavitaluciano@gmail.com">bonavitaluciano@gmail.com</a>
-            </div>
+
+            <div class="col-12 col-sm-3">Sponsor <a href="https://depcsuite.com" target="_blank" title="DePCSuite">DePcSuite</a></div>
+            <div class="col-12 col-sm-3"><a href="mailto:bonavitaluciano@gmail.com">bonavitaluciano@gmail.com</a></div>
 
         </div>
     </footer>
