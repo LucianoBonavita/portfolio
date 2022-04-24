@@ -1,3 +1,8 @@
+<?php
+    $pg = "proyectos";
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -10,38 +15,11 @@
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/estilos.css"/>
+    <link rel="stylesheet" href="css/estilos.css" />
 </head>
 
 <body id="proyectos">
-    <Header>
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="sobre-mi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-inline">
-                        <a class="btn btn-rojo">Descargar mi cv <i class="fas fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </Header>
+    <?php include_once "header.php"; ?>
 
     <main class="container">
         <div class="row">
